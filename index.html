@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links fuentes externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>PetCare-Incorporar eventos</title>
+</head>
+<body>
+    <div class="grid-container">
+        <nav>
+            <i>
+                <a href="#"><img src="" alt="logo"></a>
+            </i>
+            <ul>
+                <li>
+                    <a href="#sobreNosotros">About</a>
+                </li>
+                <li>
+                    <a href="#servicios">Services</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contact</a>
+                </li>
+                <li>
+                    <a href="#productos">Shop</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <header>
+            <h1 id="inicio">PET CARE</h1>
+            <h2>cuidamos a los que mas te quieren</h2>
+
+        </header>
+
+        <main>
+            <section class="secNosotros">
+                <h2 id="sobreNosotros" class="tituloSec">ABOUT US</h2>
+                <h3>QUE QUERES SABER SOBRE NOSOTROS? ELEGI Y TE LO CONTAMOS</h3>
+                <div class="btnContainer">
+                    <button id="btn1">Sucursales</button>
+                    <button id="btn2">Staff Medico</button>
+                    <button id="btn3">Empresas asociadas</button>
+                    <button id="btn4">Bio PetCare</button>
+                </div>
+                <div id="aboutContainer"></div>
+                
+                
+            </section>
+            
+            <section class="secServicios">
+                <h2 id="servicios" class="tituloSec">SERVICES</h2>
+                <div id="contenedorServ">
+                    
+                </div>
+
+            </section>
+
+            <section class="secContacto">
+                <h2 id="contacto" class="tituloSec">CONTACT</h2>
+            
+                <fieldset>
+                    <legend>
+                        Formulario de contacto
+                    </legend>
+                    <form action="">
+                        <label for="">Apellido</label>
+                        <input type="text" >
+                    </form>
+                    <form action="">
+                        <label for="">Direccion</label>
+                        <input type="text" >
+                    </form>
+                    <form action="">
+                        <label for="">Email</label>
+                        <input type="email" >
+                    </form>
+                </fieldset>
+            </section>
+
+            <section class="secProductos" >
+                <h2 id="productos" class="tituloSec">SHOP</h2>
+                <p>Encontra la mas amplia variedad de productos para tu mascota, desde alimentos balanceados de primera linea hasta indumentaria y accesorios de entretenimiento, TODO lo encontraras aqui </p>
+
+                <div class="contenedor-productos">
+                    <div class="card-pr" >
+                        <div class="avatar-pr">
+                            <img src="img/producto01.png" alt="item-producto">
+                        </div>
+                        <div class="info-pr">
+                            <h3>Titulo producto</h3>
+                            <p>Descripcion general del producto</p>
+                            <button type="button">Agregar al carrito</button>
+                        </div> 
+                    </div>
+                    <div class="card-pr" >
+                        <div class="avatar-pr">
+                            <img src="img/producto01.png" alt="item-producto">
+                        </div>
+                        <div class="info-pr">
+                            <h3>Titulo producto</h3>
+                            <p>Descripcion general del producto</p>
+                            <button type="button">Agregar al carrito</button>
+                        </div> 
+                    </div>
+                    <div class="card-pr" >
+                        <div class="avatar-pr">
+                            <img src="img/producto01.png" alt="item-producto">
+                        </div>
+                        <div class="info-pr">
+                            <h3>Titulo producto</h3>
+                            <p>Descripcion general del producto</p>
+                            <button type="button">Agregar al carrito</button>
+                        </div> 
+                    </div>
+
+                </div>
+
+                <a href="#inicio">
+                <button type="button">Ir a inicio</button>
+                </a>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Todos los derechos reservados- MJP Designs & Developments</p>
+
+        </footer>
+    </div>
+
+<!-- Link JS -->
+    <script src="js/eventos.js"></script>
+    <script src="js/servicios.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
